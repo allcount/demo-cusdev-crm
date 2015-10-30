@@ -1,0 +1,22 @@
+{
+  "name": "AllcountJS CusDev CRM",
+  "description": "AllcountJS Customer development CRM",
+  "keywords": [
+    "rapid",
+    "business",
+    "application",
+    "development",
+    "data-centric",
+    "RAD"
+  ],
+  "website": "https://allcountjs.com",
+  "repository": "https://github.com/allcount/demo-cusdev-crm",
+  "logo": "http://allcountjs.com/assets/images/allcountjs-logo-card.png",
+  "env" : {
+    "NODE_ENV": "production"
+   },
+   "addons": [
+    "mongolab:sandbox",
+    "papertrail:choklad"
+  ]
+}

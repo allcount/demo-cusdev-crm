@@ -1,0 +1,16 @@
+{
+  "name": "demo-cusdev-crm",
+  "version": "1.0.0",
+  "author": {
+    "name": "Pavel Tiunov",
+    "email": "pavel.tiunov@allcountjs.com"
+  },
+  "description": "CusDev CRM Demo",
+  "dependencies": {
+    "allcountjs": "^1.14.5"
+  },
+  "scripts": {
+    "start": "./node_modules/.bin/allcountjs --app app-config --db $MONGO_URI"
+  },
+  "allcountjsTemplate": "cusdev-crm"
+}
