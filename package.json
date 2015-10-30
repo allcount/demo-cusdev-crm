@@ -10,7 +10,7 @@
     "allcountjs": "^1.14.5"
   },
   "scripts": {
-    "start": "./node_modules/.bin/allcountjs --app app-config --db $MONGO_URI"
+    "start": "./node_modules/.bin/allcountjs --app app-config --db $MONGOLAB_URI"
   },
   "allcountjsTemplate": "cusdev-crm"
 }
